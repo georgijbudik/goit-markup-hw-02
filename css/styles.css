@@ -1,8 +1,8 @@
 :root {
-  --primary-text-color: #2e2f42;
-  --secondary-text-color: #434455;
-  --button-color: #4d5ae5;
-  --primary-white-color: #e5e5e5;
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
 }
 
 body {
@@ -10,73 +10,147 @@ body {
   color: var(--primary-text-color);
 
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-/* Logo */
-
 .logo {
-  font-family: "Raleway", sans-serif;
+  color: var(--accent-color);
+
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.logo-name {
-  color: var(--button-color);
+.name {
+  color: var(--title-text-color);
 }
 
-.nav-list a {
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+
   font-weight: 500;
-}
-
-.address-list a {
-  color: var(--secondary-text-color);
-}
-
-/* Buttons */
-
-.button-list .button {
-  background-color: #f4f4fd;
-  color: var(--button-color);
-
-  font-family: inherit;
-  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address .link {
+  color: var(--title-text-color);
+
+  font-style: normal;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: #404bbf;
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--primary-white-color);
+
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
   letter-spacing: 0.04em;
+
   cursor: pointer;
+  border: none;
 }
 
-.button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-}
+/* Examples and advicec */
 
-/* Our works */
+.advicec .title,
+.employees .title {
+  color: var(--title-text-color);
 
-.works-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
+/* Our team */
+
+.employee-section {
+  background-color: #f4f4fd;
+}
+
+.employee-section-title {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
 /* Footer */
 
 .footer {
-  background-color: var(--primary-text-color);
+  background-color: var(--title-text-color);
+}
+
+.footer-name-logo {
+  color: #f4f4fd;
 }
 
 .footer-text {
   color: #e7e9fc;
+}
+
+/* Portfolio */
+
+.menu-button-item {
+  color: var(--accent-color);
+  background-color: #f4f4fd;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+.menu-button-item:hover,
+.menu-button-item:focus {
+  color: var(--primary-white-color);
+  background-color: #404bbf;
+}
+
+.services-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
