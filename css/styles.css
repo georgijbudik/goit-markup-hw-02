@@ -1,0 +1,72 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --button-color: #4d5ae5;
+  --primary-white-color: #e5e5e5;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-name {
+  color: var(--button-color);
+}
+
+.nav-list a {
+  font-weight: 500;
+}
+
+.address-list a {
+  color: var(--secondary-text-color);
+}
+
+/* Buttons */
+
+.button-list .button {
+  background-color: #f4f4fd;
+  color: var(--button-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* Our works */
+
+.works-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
