@@ -70,3 +70,13 @@ a {
   font-size: 20px;
   line-height: 1.2;
 }
+
+/* Footer */
+
+.footer {
+  background-color: var(--primary-text-color);
+}
+
+.footer-text {
+  color: #e7e9fc;
+}
