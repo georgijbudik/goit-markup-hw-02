@@ -171,7 +171,7 @@ body {
 
 /* Menu-buttons */
 
-.nav-button {
+.button {
   color: var(--accent-color);
   background-color: #f4f4fd;
 
@@ -184,8 +184,8 @@ body {
   cursor: pointer;
 }
 
-.nav-button:hover,
-.nav-button:focus {
+.button:hover,
+.button:focus {
   color: var(--primary-white-color);
   background-color: #404bbf;
 }
