@@ -169,7 +169,7 @@ body {
 
 /* Portfolio */
 
-.menu-button-item {
+.button {
   color: var(--accent-color);
   background-color: #f4f4fd;
 
@@ -182,8 +182,8 @@ body {
   cursor: pointer;
 }
 
-.menu-button-item:hover,
-.menu-button-item:focus {
+.button:hover,
+.button:focus {
   color: var(--primary-white-color);
   background-color: #404bbf;
 }
@@ -201,4 +201,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
 }
