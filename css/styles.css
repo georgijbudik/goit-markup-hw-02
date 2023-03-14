@@ -167,9 +167,11 @@ body {
   color: #e7e9fc;
 }
 
-/* Portfolio */
+/* Portfolio.html */
 
-.button {
+/* Menu-buttons */
+
+.nav-button {
   color: var(--accent-color);
   background-color: #f4f4fd;
 
@@ -182,14 +184,15 @@ body {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.nav-button:hover,
+.nav-button:focus {
   color: var(--primary-white-color);
   background-color: #404bbf;
 }
 
 .services-title {
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -198,11 +201,8 @@ body {
 
 .services-text {
   color: var(--primary-text-color);
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.list {
-  list-style: none;
 }
