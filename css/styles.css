@@ -99,21 +99,14 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* Examples and advices */
 
-.advices-list-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-
 .advices .title,
-.employees .title {
+.employees .title,
+.advices-list-title {
   color: var(--title-text-color);
 
   letter-spacing: 0.02em;
@@ -122,28 +115,20 @@ body {
   line-height: 1.2;
 }
 
-.section-title {
+.works-section-title,
+.employee-section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 
 /* Our team */
 
 .employee-section {
   background-color: #f4f4fd;
-}
-
-.employee-section-title {
-  color: var(--title-text-color);
-  letter-spacing: 0.02em;
-
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
 }
 
 .employee-list-item {
@@ -171,7 +156,7 @@ body {
 
 /* Menu-buttons */
 
-.button {
+.menu-button {
   color: var(--accent-color);
   background-color: #f4f4fd;
 
@@ -184,8 +169,8 @@ body {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.menu-button:hover,
+.menu-button:focus {
   color: var(--primary-white-color);
   background-color: #404bbf;
 }
