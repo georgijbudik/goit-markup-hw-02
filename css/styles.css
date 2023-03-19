@@ -3,6 +3,8 @@
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
   --primary-white-color: #ffffff;
+  --second-background-color: #f4f4fd;
+  --hover-focus-color: #404bbf;
 }
 
 body {
@@ -10,9 +12,9 @@ body {
   color: var(--primary-text-color);
 
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -35,7 +37,7 @@ body {
   color: var(--title-text-color);
 }
 
-/* Site nav */
+/* ---------------SITE NAV-------------------- */
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -47,7 +49,7 @@ body {
 
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--hover-focus-color);
 }
 
 .link {
@@ -58,16 +60,16 @@ body {
   font-style: normal;
 }
 
-.address .link {
+.address-list .link {
   color: var(--primary-text-color);
 }
 
-.address .link:hover,
-.address .link:focus {
-  color: #404bbf;
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--hover-focus-color);
 }
 
-/* Hero */
+/* ---------------HERO-------------------- */
 
 .hero-section {
   background-color: var(--title-text-color);
@@ -99,14 +101,13 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-focus-color);
 }
 
-/* Examples and advices */
+/* ---------------EXAMPLES AND ADVICES-------------------- */
 
-.advices .title,
-.employees .title,
-.advices-list-title {
+.advices-section-title,
+.advices-item-title {
   color: var(--title-text-color);
 
   letter-spacing: 0.02em;
@@ -125,19 +126,31 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Our team */
+/* ---------------OUR TEAM------------------- */
 
-.employee-section {
-  background-color: #f4f4fd;
+.employee-item-title {
+  color: var(--title-text-color);
+
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
 }
 
-.employee-list-item {
+.employee-section {
+  background-color: var(--second-background-color);
+}
+
+.employee-item {
   background-color: var(--primary-white-color);
 }
 
 .employee-position {
   font-size: 16px;
+  text-align: center;
 }
+
 /* Footer */
 
 .footer {
@@ -152,13 +165,13 @@ body {
   color: #e7e9fc;
 }
 
-/* Portfolio.html */
+/* ---------------PORTFOLIO HTML-------------------- */
 
-/* Menu-buttons */
+/* ---------------MENU BUTTONS-------------------- */
 
 .menu-button {
   color: var(--accent-color);
-  background-color: #f4f4fd;
+  background-color: var(--second-background-color);
 
   font-family: inherit;
   font-weight: 500;
@@ -172,7 +185,7 @@ body {
 .menu-button:hover,
 .menu-button:focus {
   color: var(--primary-white-color);
-  background-color: #404bbf;
+  background-color: var(--hover-focus-color);
 }
 
 .services-title {
